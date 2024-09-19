@@ -40,9 +40,9 @@ function Sociallinks() {
                 Resume <BsFillPersonLinesFill size={30} />
               </>
             ),
-            href: '/Saqib_Ali_Resume.pdf', // Ensure this path is correct
+            href: '/Saqib_Ali_Resume.pdf',
             style: 'rounded-br-md',
-            download: false, // Removed to open in new tab
+            download: false,
         },
     ]; 
 

@@ -8,10 +8,10 @@ module.exports = {
         classix: ["Noto Sans"]
       },
       spacing: {
-        'custom-top': '16rem', // Custom padding value
+        'custom-top': '8rem',  // Custom padding value for smaller screens
       },
       screens: {
-        'sm': '260px', // Custom screen size for small devices
+        'xs': {'max': '400px'}, // Custom screen size breakpoint at 400px
       },
     },
   },
