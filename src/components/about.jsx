@@ -13,7 +13,7 @@ function About() {
             <p className='font-classix'>I’m pursuing this path to bridge the gap between technology and real-world solutions. In the next five years, I aim to deepen my expertise in programming and AI, mentor aspiring developers, and contribute to impactful projects. My ultimate goal is to innovate while continuously growing as a learner.</p>
             <div>
             <button className='sm:hidden flex group text-white w-fit px-9 py-3 my-2 items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
-              <a href="Saqib_Ali_Resume.pdf" download={true} target='_blank'>Get Resume</a>
+              <a href="Saqib_Ali_Resume.pdf" download={false} target='_blank'>Get Resume</a>
               <span className='group-hover:rotate-90 duration-500 '>
               <MdOutlineKeyboardArrowRight size={25} className='ml-1'/>
               </span>

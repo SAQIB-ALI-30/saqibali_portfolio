@@ -30,12 +30,12 @@ const NavBar = () => {
     <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed'>
     {/* <FaBars/> */}
     <div>
-        <h1 className='text-5xl font-signature ml-2'>Saqib ali</h1>
+        <h1 className='text-6xl font-signature ml-2'>Saqib ali</h1>
     </div>
     <ul className='hidden md:flex'>
         {links.map(({id, link})=>(
             <li
-        key={id} className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-300'>
+        key={id} className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-150 duration-300'>
         <Link to={link} smooth={true} duration={500}>
          {link}
         </Link>

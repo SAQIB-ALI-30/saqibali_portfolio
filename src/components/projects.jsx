@@ -6,25 +6,24 @@ function Projects() {
     const projectList = [
       {
         id: 1,
-        title: 'Car-rental',
-        description: 'A task management application with features like adding, editing, and deleting tasks. Built with HTML,CSS',
-        technologies: 'HTML, CSS',
-        githubLink: 'https://github.com/SAQIB-ALI-30/Car-rental',
-        style: 'shadow-white'
+        title: 'Personal-Portfolio',
+        description: 'This is my portfolio lets check what i have done and more',
+        technologies: 'JavaScript, ReactJS, HTML, CSS',
+        githubLink: 'https://github.com/SAQIB-ALI-30/saqibali_portfolio',
       },
       {
         id: 2,
-        title: 'banna-dalo',
-        description: 'A full-stack e-commerce platform with user authentication, product listing, shopping cart, and payment integration.',
-        technologies: 'HTML, CSS, PHP',
-        githubLink: 'https://github.com/SAQIB-ALI-30/banna-dalo',
+        title: 'ImageVerse',
+        description: 'web application that collect and store image along with its message',
+        technologies: 'Python, Django, SQLlite',
+        githubLink: 'https://github.com/SAQIB-ALI-30/ImageVerse',
       },
       {
         id: 3,
-        title: 'Django-form',
-        description: 'A personal form website showcasing my skills and projects, built using Python and HTML, CSS.',
-        technologies: 'Python, HTML. CSS',
-        githubLink: 'https://github.com/SAQIB-ALI-30/Django-form',
+        title: 'NoteMaste',
+        description: 'Full Stack website with Django as backend and Reactjs as frontend',
+        technologies: 'Python, Django, JavaScript, ReactJS, HTML, CSS',
+        githubLink: 'https://github.com/SAQIB-ALI-30/NoteMaster',
       },
     ];
   
